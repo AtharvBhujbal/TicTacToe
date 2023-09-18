@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.gridContainer{
+    width: 400px;
+    height: 400px;  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.box{
+    background-color: rgb(243, 243, 243);
+}
+.one,.two,.four,.five,.seven,.eight{
+    border-right: 1px solid rgba(71, 71, 71, 0.8);
+}
+.one,.two,.three,.four,.five,.six{
+    border-bottom: 1px solid rgba(71, 71, 71, 0.8);
+}
